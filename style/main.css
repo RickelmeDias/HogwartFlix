@@ -1,0 +1,19 @@
+:root {
+  --red: #E50914;
+  --black: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family:'Times New Roman', Times, serif;
+}
+
+header .container {
+
+}
