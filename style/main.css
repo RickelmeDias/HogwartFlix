@@ -12,8 +12,77 @@
 body {
   background: var(--black);
   font-family:'Times New Roman', Times, serif;
+  color: #FFF;
 }
 
 header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+header .logo {
+  color: var(--red);
+
+  font-family: 'Arial Black';
+  font-size: 2.5rem;      /*40px*/
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 0.625rem; /*10px*/
+}
+
+header nav a:hover {
+  color: #FFF;
+}
+
+.main-movie {
+  font-size: 1rem;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url('/img/harrypotter.jpg');
+  background-size: cover;
+  height: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .description {
+  margin-bottom: 1rem;
+}
+
+.main-movie:hover {
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.3)), url('/img/harrypotter.jpg');
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+}
+
+.button-style {
+  color: #FFF;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+  margin-right: 1rem;
+  cursor: pointer;
+
+  transition: .5s ease all;
+}
+
+.button-style:hover{
+  color: var(--black);
+  background-color: #FFF;
+}
+
+.button-style i {
+  margin-right: 0.5rem;
 }
