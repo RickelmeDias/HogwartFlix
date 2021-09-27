@@ -20,6 +20,8 @@ header .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 header .logo {
@@ -44,7 +46,7 @@ header nav a:hover {
   background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url('/img/harrypotter.jpg');
   background-size: cover;
   height: 25rem;
-
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
