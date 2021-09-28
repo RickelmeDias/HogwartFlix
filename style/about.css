@@ -1,0 +1,18 @@
+/* Houses */
+
+.main-about {
+  font-size: 1rem;
+  background: linear-gradient(rgba(14, 14, 14, 0.15), rgba(14, 14, 14,0.15)), linear-gradient(rgba(14, 14, 14,0.25), rgba(14, 14, 14, 1)), url('/img/harrypotterabout.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-about .description {
+  margin-bottom: 1rem;
+}
