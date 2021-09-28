@@ -76,7 +76,7 @@
 ✔️ 2021 09 27 : The Website.
 <details>
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/43411893/135012468-04ffd553-aba9-46bb-8ab7-5578bfe9bf03.PNG)" alt="hogwarts flix web" width="800"/>
+    <img src="https://user-images.githubusercontent.com/43411893/135012468-04ffd553-aba9-46bb-8ab7-5578bfe9bf03.PNG" alt="hogwarts flix web" width="800"/>
   </p>
 </details>
 </br>
