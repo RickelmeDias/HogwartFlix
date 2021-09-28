@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
 }
-.main-watch iframe {
+.video iframe {
+  max-width: 850px;
   border-radius: 2rem;
 }
