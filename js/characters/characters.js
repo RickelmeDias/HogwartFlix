@@ -5,10 +5,16 @@
  *  Created by:
  *  https://twitter.com/edinbeth
  *  https://github.com/bethfraser/hp-api
+ * 
+ * I had to change the HP-API data to a JSON file, because the API haven't a secure protocal HTTPS.
+ * 
  */
 
+
+
+
 async function getCharacter() {
-  const chars = await fetch ('http://hp-api.herokuapp.com/api/characters')
+  const chars = await fetch ('/json/characters.json')
   .then((res) => {
     return res.json();
   })
