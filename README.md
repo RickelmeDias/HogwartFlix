@@ -10,7 +10,7 @@
 
 </br>
 
-> A front-end web site with Snake-Game usign Javascript. 🐍🕹️
+> A study web-site, to learn more about html, css and js. 🧙🌟
 
 ---
 
@@ -76,14 +76,14 @@
 ✔️ 2021 09 27 : The Website.
 <details>
   <p align="center">
-    <img src="" alt="hogwarts flix web" width="800"/>
+    <img src="https://user-images.githubusercontent.com/43411893/135012468-04ffd553-aba9-46bb-8ab7-5578bfe9bf03.PNG)" alt="hogwarts flix web" width="800"/>
   </p>
 </details>
 </br>
 
 
 
-## Contributors
+## Student
 
 | [<img src="https://avatars.githubusercontent.com/u/43411893?s=400&u=c1a306f43d649c6c7e92cda85709ba604b20406b&v=4" width=115><br><sub>Rickelme Dias</sub>](https://github.com/RickelmeDias) |
 | :---: |
