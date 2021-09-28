@@ -1,0 +1,30 @@
+/* Houses */
+
+.main-watch {
+  font-size: 1rem;
+  background: linear-gradient(rgba(14, 14, 14, 0.15), rgba(14, 14, 14,0.15)), linear-gradient(rgba(14, 14, 14,0.25), rgba(14, 14, 14, 1)), url('/img/wallpaper-car.jpg');
+  background-position: left;
+  background-size: cover;
+  height: 45rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-watch .description {
+  margin-bottom: 1rem;
+}
+
+.video {
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-watch iframe {
+  border-radius: 2rem;
+}
