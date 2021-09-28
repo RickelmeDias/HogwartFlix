@@ -1,6 +1,6 @@
 :root {
   --red: #E50914;
-  --black: #141414;
+  --black: #0e0e0e;
 }
 
 * {
@@ -20,25 +20,28 @@ header .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem 2rem;
 }
 
 header .logo {
   color: var(--red);
-
+  max-height: 100px;
   font-family: 'Arial Black';
   font-size: 2.5rem;      /*40px*/
+}
+header .logo:hover {
+  filter: brightness(160%);
+  cursor: pointer;
 }
 
 header nav a {
   text-decoration: none;
-  color: #AAA;
+  color: #FFF;
   margin-right: 0.625rem; /*10px*/
 }
 
 header nav a:hover {
-  color: #FFF;
+  color: rgb(255, 183, 183);
 }
 
 .main-movie {
@@ -111,4 +114,50 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+/* Characters */
+.owl-carousel {
+  background: linear-gradient(rgba(14, 14, 14, 1), rgba(14, 14, 14,0.15)), linear-gradient(rgba(14, 14, 14,0.65), rgba(14, 14, 14, 1)), url('/img/background-carousel.jpeg');
+  
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.chars-box {
+  min-height: 400px;
+  min-width: 300px;
+  max-height: 400px;
+  max-width: 300px;
+}
+
+.main-char {
+  font-size: 1rem;
+  background: linear-gradient(rgba(14, 14, 14, 0.15), rgba(14, 14, 14,0.15)), linear-gradient(rgba(14, 14, 14,0.25), rgba(14, 14, 14, 1)), url('/img/harrypotterchars.jpg');
+  background-size: cover;
+  height: 25rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-char .description {
+  margin-bottom: 1rem;
+}
+
+.char-name {
+  margin-top: 0.2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.char-house {
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
