@@ -525,7 +525,7 @@
     "hogwartsStaff": true,
     "actor": "Maxime, Alanis and Tommy the cats",
     "alive": true,
-    "image": "/img/chars/norris.JPG"
+    "image": "/img/chars/norris.jpg"
   },
   {
     "name": "Argus Filch",
