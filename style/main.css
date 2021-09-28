@@ -161,3 +161,22 @@ header nav a:hover {
   font-size: 1rem;
   font-weight: 300;
 }
+
+
+/* Houses */
+
+.main-houses {
+  font-size: 1rem;
+  background: linear-gradient(rgba(14, 14, 14, 0.15), rgba(14, 14, 14,0.15)), linear-gradient(rgba(14, 14, 14,0.25), rgba(14, 14, 14, 1)), url('/img/hogwarts-houses.jpg');
+  background-size: cover;
+  height: 25rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-houses .description {
+  margin-bottom: 1rem;
+}

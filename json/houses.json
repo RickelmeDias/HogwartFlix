@@ -1,0 +1,26 @@
+[
+  {
+    "house": "Gryffindor",
+    "founder": "Godric Gryffindor",
+    "image": "/img/gryffindor.jpg",
+    "image-reference": "https://minalima.com/"
+  },
+  {
+    "house": "Hufflepuff",
+    "founder": "Helga Hufflepuff",
+    "image": "/img/hufflepuff.jpg",
+    "image-reference": "https://minalima.com/"
+  },
+  {
+    "house": "Ravenclaw",
+    "founder": "Rowena Ravenclaw",
+    "image": "/img/ravenclaw.jpg",
+    "image-reference": "https://minalima.com/"
+  },
+  {
+    "house": "Slytherin",
+    "founder": "Salazar Slytherin",
+    "image": "/img/slytherin.jpg",
+    "image-reference": "https://minalima.com/"
+  }
+]
